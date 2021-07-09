@@ -14,3 +14,9 @@ class Board(object):
 
     def setup(self):
         pass
+
+    def get_pieces(self, color:int=None):
+        pass
+
+    def get_square_by_pos(self, file, rank):
+        pass
